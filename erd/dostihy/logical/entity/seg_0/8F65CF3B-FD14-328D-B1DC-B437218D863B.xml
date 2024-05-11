@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F65CF3B-FD14-328D-B1DC-B437218D863B" name="Vysledek">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:24:09 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="54276375-3080-FF4A-C6F5-79CC803FE49F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:24:14 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dokoncili" id="579D9E01-4C15-F857-2E16-27B723B64996">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:24:22 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umisteni" id="2DBDD1F3-2FE9-9DCF-88F6-5FE7843F964C">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:24:55 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VyhraPenize" id="F21EEA73-79C7-06D6-40EC-E26A5D576A5F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:25:33 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F0851C10-F175-CF72-BC04-951F2A25B8DD">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:26:38 UTC</createdTime>
+<generatorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>D9916661-01F4-EE42-2DF7-4970C0FEC7E1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E0BED2A-06A4-E14C-1226-EFB75914F15F" name="Vysledek PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:26:27 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54276375-3080-FF4A-C6F5-79CC803FE49F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

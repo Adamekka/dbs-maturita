@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KunStaje" directorySegmentName="seg_0" id="9266E540-E96A-5135-8E15-B57B930F22DB">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:33:52 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>A422B4F4-B2FD-BB96-9F92-7ACC3730FCB4</sourcePk>
+<targetPk>D33C04F2-8425-F55A-5DC1-18D7894AF6EE</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C7F85839-76C1-5DC1-4441-F496CCDB1242</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0278E545-0F35-DBA6-C2AC-9CB694126F49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

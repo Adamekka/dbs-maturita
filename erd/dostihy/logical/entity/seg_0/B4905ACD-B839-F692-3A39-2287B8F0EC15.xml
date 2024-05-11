@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4905ACD-B839-F692-3A39-2287B8F0EC15" name="Adresa">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:40:04 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6BAFDEB6-0772-83AB-64E4-DA200094A8D5">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:40:13 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stat" id="7DC4CF64-701D-4E83-AE9F-7362B2ADFE64">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:40:28 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mesto" id="428F894A-836D-A447-1C0C-F99A505BD6F7">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:41:02 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulice" id="09F9D182-55AC-65C5-00C5-C15C077BAAED">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:41:03 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSC" id="C0DAAE5B-EF40-42C8-479F-C62EB427C97B">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:41:18 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A11590D2-29BB-D5CC-CE5E-7017793A4A08" name="Adresa PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:40:20 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BAFDEB6-0772-83AB-64E4-DA200094A8D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

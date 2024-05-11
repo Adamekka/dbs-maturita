@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Majitelv1" directorySegmentName="seg_0" id="12EB0E2E-5F5D-9662-E828-A0EEDF3DBA8A">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:12:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>F4F5B7EC-3419-C0FF-FAB7-8BBE06DE4AC9</sourcePk>
+<targetPk>850D77C6-DEC4-B547-17D4-A7EE4CBE8183</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF750D41-D025-7C74-E3CC-16B6A4EE5994</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>57408B23-BAF7-1D60-2B88-14F1D22E96E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

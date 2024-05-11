@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Trener" directorySegmentName="seg_0" id="1EEE26C1-16BD-918D-CE5B-AB72596222EB">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:43:43 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>850D77C6-DEC4-B547-17D4-A7EE4CBE8183</sourcePk>
+<targetPk>D33C04F2-8425-F55A-5DC1-18D7894AF6EE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>57408B23-BAF7-1D60-2B88-14F1D22E96E4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0278E545-0F35-DBA6-C2AC-9CB694126F49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

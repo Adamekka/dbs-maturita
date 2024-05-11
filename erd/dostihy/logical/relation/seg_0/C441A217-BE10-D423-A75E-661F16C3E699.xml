@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jezdec" directorySegmentName="seg_0" id="C441A217-BE10-D423-A75E-661F16C3E699">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:20:29 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>03A28635-5E66-BD39-B94B-F78D01CB6613</sourcePk>
+<targetPk>850D77C6-DEC4-B547-17D4-A7EE4CBE8183</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B798B8FA-4420-2314-36F5-89C6BE2A79C2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>57408B23-BAF7-1D60-2B88-14F1D22E96E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

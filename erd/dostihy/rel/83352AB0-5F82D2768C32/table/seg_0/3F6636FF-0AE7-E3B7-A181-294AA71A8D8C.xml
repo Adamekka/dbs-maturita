@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F6636FF-0AE7-E3B7-A181-294AA71A8D8C" name="Vysledek">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>8F65CF3B-FD14-328D-B1DC-B437218D863B</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FE2D15EE-DBEB-6630-BF04-76DB19ECA441">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>54276375-3080-FF4A-C6F5-79CC803FE49F</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dokoncili" id="E0A6638B-0EA8-6E26-7CA3-6A99AE493457">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>579D9E01-4C15-F857-2E16-27B723B64996</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Umisteni" id="B5782F12-9A58-CD20-7861-D6BE22EABEF5">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>2DBDD1F3-2FE9-9DCF-88F6-5FE7843F964C</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VyhraPenize" id="F195ABB7-4D83-41E9-E30B-413E8179117B">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>F21EEA73-79C7-06D6-40EC-E26A5D576A5F</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_ID" id="971EFF30-953C-F044-D02E-2B0421FB1B77">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>F0851C10-F175-CF72-BC04-951F2A25B8DD</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A0D4053-D54E-0BEF-C706-9AC5DB883637" referredColumn="8E3AD4DC-F353-F966-9058-74135E9BFBAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCE9BF5A-845D-6081-2C98-E1C5721C7B92" name="Vysledek_PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>3E0BED2A-06A4-E14C-1226-EFB75914F15F</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2D15EE-DBEB-6630-BF04-76DB19ECA441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21048969-27C8-71F3-ECA7-FBE53EA03528" name="Vysledek__IDX">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="971EFF30-953C-F044-D02E-2B0421FB1B77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13C21BA1-C8B4-ED5F-07A1-AD00B64E3A73" name="Vysledek_Start_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971EFF30-953C-F044-D02E-2B0421FB1B77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

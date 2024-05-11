@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StajeAdresa" directorySegmentName="seg_0" id="4FBBC0DC-3581-6C34-2AA4-E2662E31D1C1">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:42:20 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>D33C04F2-8425-F55A-5DC1-18D7894AF6EE</sourcePk>
+<targetPk>A11590D2-29BB-D5CC-CE5E-7017793A4A08</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0278E545-0F35-DBA6-C2AC-9CB694126F49</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B4905ACD-B839-F692-3A39-2287B8F0EC15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

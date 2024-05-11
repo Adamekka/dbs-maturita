@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B798B8FA-4420-2314-36F5-89C6BE2A79C2" name="Start">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:19:06 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D9916661-01F4-EE42-2DF7-4970C0FEC7E1">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:19:14 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cislo" id="5215F603-B499-EDA1-2E9D-57E73458380A">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:19:17 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="F9EC22BE-76CC-A5A4-9A86-D2D3A14AF2B6">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:21:06 UTC</createdTime>
+<generatorID>8578316F-FF99-1A75-DFC3-6F34BA8150D6</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>020259A5-0EA1-3E18-7D53-ED07A3DB26B4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="2B45D0C5-7557-670D-9215-9DEA8C9F327A">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:22:20 UTC</createdTime>
+<generatorID>E4855074-D22F-4C3E-701C-0B297C565E34</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>4B611484-FD0B-A734-397D-54879CA97A3F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="F6A18AFC-ED8B-2E05-2DFA-2CBB751BD7B2">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:26:29 UTC</createdTime>
+<generatorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>54276375-3080-FF4A-C6F5-79CC803FE49F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="488AED8D-BC8F-0F6C-43EE-91CABD890E83">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:32:14 UTC</createdTime>
+<generatorID>C441A217-BE10-D423-A75E-661F16C3E699</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>33FB4C51-3C28-5D42-A335-B110377AC07D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03A28635-5E66-BD39-B94B-F78D01CB6613" name="Start PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:26:35 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9916661-01F4-EE42-2DF7-4970C0FEC7E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

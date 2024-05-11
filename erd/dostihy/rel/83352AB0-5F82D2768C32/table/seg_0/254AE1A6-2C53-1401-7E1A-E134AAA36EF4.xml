@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="254AE1A6-2C53-1401-7E1A-E134AAA36EF4" name="Adresa">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>B4905ACD-B839-F692-3A39-2287B8F0EC15</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BBAC814B-7981-6413-5EAF-F0F2034AF643">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>6BAFDEB6-0772-83AB-64E4-DA200094A8D5</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stat" id="E5E28ADE-0357-D760-8928-55BA8DF6B2CD">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>7DC4CF64-701D-4E83-AE9F-7362B2ADFE64</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesto" id="3A8AA32A-EEF8-41CB-CC63-8920C64D60CE">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>428F894A-836D-A447-1C0C-F99A505BD6F7</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulice" id="C9F2C468-0054-2678-8762-59C4C533CFAB">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>09F9D182-55AC-65C5-00C5-C15C077BAAED</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSC" id="AFD2EB00-0923-000E-5FA5-217671A19DD3">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>C0DAAE5B-EF40-42C8-479F-C62EB427C97B</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCE556E4-F4A6-740A-12D6-F446A7E864BA" name="Adresa_PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>A11590D2-29BB-D5CC-CE5E-7017793A4A08</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBAC814B-7981-6413-5EAF-F0F2034AF643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

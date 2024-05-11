@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF750D41-D025-7C74-E3CC-16B6A4EE5994" name="Dostih">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:57:56 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4B611484-FD0B-A734-397D-54879CA97A3F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:58:01 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="7C0EC78A-1065-6B4F-E812-48E553DE9790">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:58:10 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatumCas" id="7EE0388B-A897-9C4D-6A16-E372737B8807">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:59:48 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dotace" id="86E1A7E6-E8CF-6E05-FD46-BDEF1C2EFD7F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:16:25 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ" id="D79223F8-1349-6833-3B03-A25E57EE3E32">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:16:55 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Delka" id="012F2B70-1E27-A0D0-F65E-9ED9F3F35E1C">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:17:22 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PocetPrekazek" id="537A09C3-9E62-82A2-B659-BEA4C440C4E8">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:17:36 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F0386B40-48AD-4312-0E6B-E4EEDC371407">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:04:21 UTC</createdTime>
+<generatorID>576D167D-4B5B-DAFA-2F00-E1D13E398E5E</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>6BAFDEB6-0772-83AB-64E4-DA200094A8D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="A60E70B8-81E0-08BF-6D2D-23ED1C6F8BC5">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:13:10 UTC</createdTime>
+<generatorID>12EB0E2E-5F5D-9662-E828-A0EEDF3DBA8A</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>33FB4C51-3C28-5D42-A335-B110377AC07D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="F85207F2-28A2-49FA-4915-8CCACBAD36AA">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:26:38 UTC</createdTime>
+<generatorID>E4855074-D22F-4C3E-701C-0B297C565E34</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>D9916661-01F4-EE42-2DF7-4970C0FEC7E1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F5B7EC-3419-C0FF-FAB7-8BBE06DE4AC9" name="Dostih PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:58:08 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B611484-FD0B-A734-397D-54879CA97A3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C56DC7F-9467-A78C-9422-AAEAAB7719F8" name="Staje">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>0278E545-0F35-DBA6-C2AC-9CB694126F49</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5BA2058D-14CB-E451-39DA-967C10783AB8">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>C27D0084-DBD5-71C5-243B-2E00673DC66E</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev" id="F5BFB0A6-DD17-11C2-A3E1-5AE1EC2CE698">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>D9D77983-8335-AD5D-E703-63DD448AE511</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clovek_ID" id="14FB92AE-5166-F64D-A50A-19278AC7A84E">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>5A2C0646-F4C5-19BA-07F2-F96044FE4305</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79A3C020-5B13-9DE4-315C-D2B83CA05B63" referredColumn="84C66B64-3790-861B-CFC5-5FD0E536A881"/>
+</associations>
+</Column>
+<Column name="Adresa_ID" id="A9A7811F-8314-A64A-1231-AD76F1A3D1EE">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>992C0356-1A13-3307-D3F8-C00833212E62</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34526F4F-2E75-65AB-DAED-C9CCD52E142F" referredColumn="BBAC814B-7981-6413-5EAF-F0F2034AF643"/>
+</associations>
+</Column>
+<Column name="Clovek_ID2" id="7AAC5335-1410-ED77-C0AF-C65177C3482C">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>F129FF8E-AAAE-A84A-33EC-0255EF1E6CB0</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB7F4760-38C5-2F10-457F-C62069BAEA5A" referredColumn="84C66B64-3790-861B-CFC5-5FD0E536A881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48820C8C-0178-766F-FF2A-B4BDC6FF691A" name="Staje_PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>D33C04F2-8425-F55A-5DC1-18D7894AF6EE</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA2058D-14CB-E451-39DA-967C10783AB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AA2C4AD-915A-EC3A-5F5A-7C1DA7A7983C" name="Staje__IDX">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E3A7F059-0203-B4E7-62B6-588B89D34B96</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="14FB92AE-5166-F64D-A50A-19278AC7A84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DA383DD-F709-2BA4-0BE4-E250BBC156E5" name="Staje__IDXv1">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4FBBC0DC-3581-6C34-2AA4-E2662E31D1C1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A9A7811F-8314-A64A-1231-AD76F1A3D1EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD8008A2-4114-E346-6534-6821D08C6D88" name="Staje__IDXv2">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1EEE26C1-16BD-918D-CE5B-AB72596222EB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7AAC5335-1410-ED77-C0AF-C65177C3482C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5151FCA2-5067-B262-1622-ABF3E98C2CC3" name="Staje_Clovek_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>E3A7F059-0203-B4E7-62B6-588B89D34B96</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14FB92AE-5166-F64D-A50A-19278AC7A84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8827D859-851A-4C9A-CBBD-D8D4ACB73F7B" name="Staje_Adresa_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>4FBBC0DC-3581-6C34-2AA4-E2662E31D1C1</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9A7811F-8314-A64A-1231-AD76F1A3D1EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A074CD2-9547-57B2-1D83-2EE5279145F6" name="Staje_Clovek_FKv2">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>1EEE26C1-16BD-918D-CE5B-AB72596222EB</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAC5335-1410-ED77-C0AF-C65177C3482C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

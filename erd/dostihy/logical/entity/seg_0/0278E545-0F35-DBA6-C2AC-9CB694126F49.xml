@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0278E545-0F35-DBA6-C2AC-9CB694126F49" name="Staje">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:28:48 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C27D0084-DBD5-71C5-243B-2E00673DC66E">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:28:53 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="D9D77983-8335-AD5D-E703-63DD448AE511">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:35:36 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="5A2C0646-F4C5-19BA-07F2-F96044FE4305">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:36:21 UTC</createdTime>
+<generatorID>E3A7F059-0203-B4E7-62B6-588B89D34B96</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>33FB4C51-3C28-5D42-A335-B110377AC07D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="992C0356-1A13-3307-D3F8-C00833212E62">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:42:27 UTC</createdTime>
+<generatorID>4FBBC0DC-3581-6C34-2AA4-E2662E31D1C1</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>6BAFDEB6-0772-83AB-64E4-DA200094A8D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="F129FF8E-AAAE-A84A-33EC-0255EF1E6CB0">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:56:32 UTC</createdTime>
+<generatorID>1EEE26C1-16BD-918D-CE5B-AB72596222EB</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>33FB4C51-3C28-5D42-A335-B110377AC07D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D33C04F2-8425-F55A-5DC1-18D7894AF6EE" name="Staje PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:28:55 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C27D0084-DBD5-71C5-243B-2E00673DC66E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

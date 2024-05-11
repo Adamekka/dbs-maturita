@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECC11647-BC39-2E33-37A0-1C5790A447B3" name="Start">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>B798B8FA-4420-2314-36F5-89C6BE2A79C2</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8E3AD4DC-F353-F966-9058-74135E9BFBAD">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>D9916661-01F4-EE42-2DF7-4970C0FEC7E1</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cislo" id="E0E03E8F-5666-BE19-327D-52B7DB887F92">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>5215F603-B499-EDA1-2E9D-57E73458380A</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kun_ID" id="276DD12B-315A-4EFB-BF1E-9E048250A92C">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>F9EC22BE-76CC-A5A4-9A86-D2D3A14AF2B6</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24072915-1C3D-87CB-7976-11D9D6955E7C" referredColumn="3822DC8F-68A4-BC7F-B66E-7A70F5D65A1E"/>
+</associations>
+</Column>
+<Column name="Dostih_ID" id="E58B981B-DB77-41BB-72FA-36431E4C358F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>2B45D0C5-7557-670D-9215-9DEA8C9F327A</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53092A25-EBB1-83D7-875E-333007F0A5C3" referredColumn="5D59273C-4773-6296-A2B5-FA0482F4D0BB"/>
+</associations>
+</Column>
+<Column name="Vysledek_ID" id="4854A95C-16C8-8A08-531E-2399E57620C9">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>F6A18AFC-ED8B-2E05-2DFA-2CBB751BD7B2</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71F9B826-41FC-47C7-A0BE-B40454C620D5" referredColumn="FE2D15EE-DBEB-6630-BF04-76DB19ECA441"/>
+</associations>
+</Column>
+<Column name="Clovek_ID" id="33C0868C-4868-3CAB-56C2-F449A40FEBA6">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>488AED8D-BC8F-0F6C-43EE-91CABD890E83</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="711F8E0F-39B1-A0F0-8C24-86C3CE0076A7" referredColumn="84C66B64-3790-861B-CFC5-5FD0E536A881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81A6F746-B298-0FD5-C09A-EF417AE69049" name="Start_PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>03A28635-5E66-BD39-B94B-F78D01CB6613</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E3AD4DC-F353-F966-9058-74135E9BFBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95E87DB3-B70C-BE23-CBB2-03B06C02AF4A" name="Start__IDX">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4854A95C-16C8-8A08-531E-2399E57620C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1EB94B8-D2CF-FAFE-4F02-D2277ED89C64" name="Start__IDXv1">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E4855074-D22F-4C3E-701C-0B297C565E34</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E58B981B-DB77-41BB-72FA-36431E4C358F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AACE3B8-F913-1AC8-82C6-C3D328165E5F" name="Start_Clovek_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>C441A217-BE10-D423-A75E-661F16C3E699</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C0868C-4868-3CAB-56C2-F449A40FEBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="021E2CAC-6EBD-3809-2BC8-3A62709871EA" name="Start_Vysledek_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>09C2F7EF-6B5C-3A28-709E-C6969A448319</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4854A95C-16C8-8A08-531E-2399E57620C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F641768-8C0C-A98F-7607-A36A7633B39A" name="Start_Dostih_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>E4855074-D22F-4C3E-701C-0B297C565E34</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E58B981B-DB77-41BB-72FA-36431E4C358F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A2A2E99-899A-B022-0FE5-9E24101B2BA1" name="Start_Kun_FK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:33:59 UTC</createdTime>
+<generatorID>8578316F-FF99-1A75-DFC3-6F34BA8150D6</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="276DD12B-315A-4EFB-BF1E-9E048250A92C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

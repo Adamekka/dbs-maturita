@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7F85839-76C1-5DC1-4441-F496CCDB1242" name="Kun">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:24:28 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="020259A5-0EA1-3E18-7D53-ED07A3DB26B4">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:24:34 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno" id="2BA9D78D-8666-8982-2122-D715FACF55C4">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:24:41 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Narozen" id="FF2B3E89-A851-B5C3-8662-E442DBD30B9F">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:30:21 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pohlavi" id="4216D565-E458-110D-88B1-0D4F996C1355">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:30:55 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>19012708-06C5-9F01-E1BC-0F4D13ABA832</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Barva" id="C8AD43D9-D32B-94F0-4919-1CD4A7FCFCCF">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:33:19 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="7F944A8F-07C3-E859-9A73-6BF1DD33AB27">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:46:11 UTC</createdTime>
+<generatorID>1EEE26C1-16BD-918D-CE5B-AB72596222EB</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>33FB4C51-3C28-5D42-A335-B110377AC07D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="998C538C-A5E2-5F04-C6EA-D04395D01B5B">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:51:44 UTC</createdTime>
+<generatorID>9266E540-E96A-5135-8E15-B57B930F22DB</generatorID>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<referedAttribute>C27D0084-DBD5-71C5-243B-2E00673DC66E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>865C66B0-6985-C393-0B1E-35182C0C0A42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A422B4F4-B2FD-BB96-9F92-7ACC3730FCB4" name="Kun PK">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 13:24:39 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>020259A5-0EA1-3E18-7D53-ED07A3DB26B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

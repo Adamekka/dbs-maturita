@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sponzori" directorySegmentName="seg_0" id="B75928E2-B628-79B3-367C-5D96F52B3F55">
+<createdBy>adamekka</createdBy>
+<createdTime>2024-05-11 14:13:48 UTC</createdTime>
+<ownerDesignName>dostihy</ownerDesignName>
+<engineerTo>
+<item key="83352AB0-1ED2-7266-0752-5F82D2768C32" value="true"/>
+</engineerTo>
+<sourcePk>F4F5B7EC-3419-C0FF-FAB7-8BBE06DE4AC9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF750D41-D025-7C74-E3CC-16B6A4EE5994</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57408B23-BAF7-1D60-2B88-14F1D22E96E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
