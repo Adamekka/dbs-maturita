@@ -1,0 +1,1 @@
+create sequence seq_zakaznici increment by 1 start with 1 maxvalue 9999 minvalue 1 nocycle;
